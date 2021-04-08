@@ -119,7 +119,7 @@ You can run these tests as below:
 
 * The log4j.properties file is placed under ./src/test/resources directory
 * The test logs are generated in the directory/file mentioned in the properties file as below
-    log4j.appender.R.File=./${LOG_DIR}/testLogs/JioMeet_E2E_testlog.log
+    log4j.appender.R.File=./${LOG_DIR}/testLogs/unifiedE2ETestLog.log
 * LOG_DIR path is defined in the ./configs/config.properties file
 
 ### Running the tests with Applitools Visual AI
